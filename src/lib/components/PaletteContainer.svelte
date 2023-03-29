@@ -66,6 +66,7 @@
         id="segment-{i}"
         class="screen-readers-only"
         on:click={() => (selectedSegment = i)}
+        value={segments[i]}
       >
         {#each activePalettes as palette}
           <option value={palette.name} />
