@@ -15,6 +15,15 @@
     const palette = JSON.parse(data);
     segments[i] = palette;
   }
+
+  function handleDragStart(e: DragEvent, i: number) {
+    const palette = segments[i];
+    console.log(palette);
+    if (!palette) return;
+    e.dataTransfer.clearData();
+    e.dataTransfer.setData("paletteDrag", JSON.stringify(palette));
+    e.dataTransfer.dropEffect = "move";
+  }
 </script>
 
 <div class="container">
@@ -25,6 +34,8 @@
       class:selected={i === selectedSegment}
       on:dragover={handleDragOver}
       on:drop={(e) => handleDrop(e, i)}
+      on:dragstart={(e) => handleDragStart(e, i)}
+      draggable
     >
       {#if !!segment}
         <div>
