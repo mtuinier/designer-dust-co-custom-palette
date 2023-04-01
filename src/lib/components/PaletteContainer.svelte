@@ -1,10 +1,45 @@
 <script lang="ts">
-  import { activePalettes, type Palette } from "../utils/palettes";
+  import { activePalettes } from "../utils/palettes";
   import Trash from "svelte-material-icons/TrashCanOutline.svelte";
+  import { Splide, SplideSlide } from "@splidejs/svelte-splide";
+  import "@splidejs/svelte-splide/css";
+  import {
+    miniPaletteLabelView,
+    type PaletteStore,
+    type SelectedSegmentStore,
+  } from "../stores/palettes";
 
-  export let selectedSegment: number;
-  export let segments: (Palette | undefined)[];
   let dragging = false;
+  export let kind: "mini" | "standard" | "vault";
+  export let palette: PaletteStore;
+  export let selectedSegment: SelectedSegmentStore;
+
+  const config = {
+    mini: {
+      rows: 4,
+      columns: 4,
+      width: 160,
+      height: 160,
+    },
+    standard: {
+      rows: 3,
+      columns: 8,
+      width: 80,
+      height: 120,
+    },
+    vault: {
+      rows: 4,
+      columns: 9,
+      width: 640 / 9,
+      height: 110,
+    },
+  };
+
+  $: labels = kind === "mini" ? miniPaletteLabelView : palette;
+
+  $: console.log($labels);
+
+  const settings = config[kind];
 
   function handleDragOver(e: DragEvent) {
     e.preventDefault();
@@ -13,17 +48,22 @@
   function handleDrop(e: DragEvent, i: number) {
     const data = e.dataTransfer.getData("paletteDrag");
     if (!data) return;
-    const palette = JSON.parse(data);
-    segments[i] = palette;
+    const p = JSON.parse(data);
+    palette.add(i, p);
+
+    const trashData = e.dataTransfer.getData("trashIndex");
+    if (!trashData) return;
+    const trashIndex = JSON.parse(trashData);
+    palette.remove(trashIndex);
+    dragging = false;
   }
 
   function handleDragStart(e: DragEvent, i: number) {
     dragging = true;
-    const palette = segments[i];
-    console.log(palette);
-    if (!palette) return;
+    const p = $palette[i];
+    if (!p) return;
     e.dataTransfer.clearData();
-    e.dataTransfer.setData("paletteDrag", JSON.stringify(palette));
+    e.dataTransfer.setData("paletteDrag", JSON.stringify(p));
     e.dataTransfer.setData("trashIndex", JSON.stringify(i));
     e.dataTransfer.dropEffect = "move";
   }
@@ -32,7 +72,7 @@
     const data = e.dataTransfer.getData("trashIndex");
     if (!data) return;
     const trashIndex = JSON.parse(data);
-    segments[trashIndex] = undefined;
+    palette.remove(trashIndex);
     dragging = false;
   }
 
@@ -42,42 +82,79 @@
 </script>
 
 <div class="custom">
-  <div class="container">
-    {#each segments as segment, i}
-      <label
-        for="segment-{i}"
-        class="segment"
-        class:selected={i === selectedSegment}
-        on:dragover={handleDragOver}
-        on:drop={(e) => handleDrop(e, i)}
-        on:dragstart={(e) => handleDragStart(e, i)}
-        on:dragend={handleDragEnd}
-        draggable
+  <Splide options={{ width: 800 }} aria-label="Svelte Splide Example">
+    <SplideSlide>
+      <div
+        class="container"
+        class:round={kind === "mini"}
+        style={`grid-template-columns: repeat(${settings.columns}, ${settings.width}px); grid-template-rows: repeat(${settings.rows}, ${settings.height}px);`}
       >
-        {#if !!segment}
-          <div>
-            <img src={segment.img} alt={segment.name} class="preview" />
-          </div>
-        {:else}
-          {i + 1}
-        {/if}
-      </label>
-      <select
-        id="segment-{i}"
-        class="screen-readers-only"
-        on:click={() => (selectedSegment = i)}
-      >
-        {#each activePalettes as palette}
-          <option value={palette.name} />
+        {#each $palette as segment, i}
+          <label
+            for="segment-{i}"
+            class="segment"
+            class:selected={i === $selectedSegment}
+            class:top-left={i === 0 && kind === "mini"}
+            class:top-right={i === 3 && kind === "mini"}
+            class:bottom-left={i === 12 && kind === "mini"}
+            class:bottom-right={i === 15 && kind === "mini"}
+            on:dragover={handleDragOver}
+            on:drop={(e) => handleDrop(e, i)}
+            on:dragstart={(e) => handleDragStart(e, i)}
+            on:dragend={handleDragEnd}
+            draggable
+          >
+            {#if !!segment}
+              <div>
+                <img src={segment.img} alt={segment.name} class="preview" />
+              </div>
+            {:else}
+              {i + 1}
+            {/if}
+          </label>
+          <select
+            id="segment-{i}"
+            class="screen-readers-only"
+            on:click={() => selectedSegment.select(i)}
+          >
+            {#each activePalettes as palette}
+              <option value={palette.name} />
+            {/each}
+          </select>
         {/each}
-      </select>
-    {/each}
-  </div>
-  {#if dragging}
-    <div class="trash" on:dragover={handleDragOver} on:drop={handleTrashDrop}>
-      <Trash width={40} height={40} />
-    </div>
-  {/if}
+      </div>
+      {#if dragging}
+        <div
+          class="trash"
+          on:dragover={handleDragOver}
+          on:drop={handleTrashDrop}
+        >
+          <Trash width={40} height={40} />
+        </div>
+      {/if}
+    </SplideSlide>
+    <SplideSlide>
+      <div
+        class="container"
+        class:round={kind === "mini"}
+        style={`grid-template-columns: repeat(${settings.columns}, ${settings.width}px); grid-template-rows: repeat(${settings.rows}, ${settings.height}px);`}
+      >
+        {#each $labels as segment, i}
+          <div
+            class="segment nopointer"
+            class:top-left={i === 0 && kind === "mini"}
+            class:top-right={i === 3 && kind === "mini"}
+            class:bottom-left={i === 12 && kind === "mini"}
+            class:bottom-right={i === 15 && kind === "mini"}
+          >
+            {#if !!segment}
+              <span class="label">{segment.name}</span>
+            {/if}
+          </div>
+        {/each}
+      </div>
+    </SplideSlide>
+  </Splide>
 </div>
 
 <style>
@@ -89,35 +166,50 @@
     top: 80px;
     gap: 16px;
   }
+
+  .nopointer {
+    cursor: auto;
+  }
+
+  .round {
+    border-radius: 160px;
+  }
+
+  .top-left {
+    border-radius: 160px 0 0 0;
+  }
+
+  .top-right {
+    border-radius: 0 160px 0 0;
+  }
+
+  .bottom-left {
+    border-radius: 0 0 0 160px;
+  }
+
+  .bottom-right {
+    border-radius: 0 0 160px 0;
+  }
+
   .container {
     display: grid;
-    grid-template-columns: repeat(8, 80px);
-    grid-template-rows: repeat(3, 120px);
+    border: 1px solid black;
+    width: 640px;
+    margin: 0 auto;
   }
 
   .segment {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
+    border: 1px solid black;
     cursor: pointer;
     overflow: hidden;
-    width: 80px;
-    height: 120px;
   }
 
   .preview {
-    width: 125px;
+    width: 170px;
     object-fit: fill;
-  }
-
-  .segment:nth-of-type(-n + 8) {
-    border-top: 2px solid black;
-  }
-
-  .segment:nth-of-type(8n) {
-    border-right: 2px solid black;
   }
 
   .selected {
@@ -130,5 +222,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .label {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
   }
 </style>
