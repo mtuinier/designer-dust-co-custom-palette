@@ -129,15 +129,14 @@
           </select>
         {/each}
       </div>
-      {#if dragging}
-        <div
-          class="trash"
-          on:dragover={handleDragOver}
-          on:drop={handleTrashDrop}
-        >
-          <Trash width={40} height={40} />
-        </div>
-      {/if}
+      <div
+        class:hidden={!dragging}
+        class="trash"
+        on:dragover={handleDragOver}
+        on:drop={handleTrashDrop}
+      >
+        <Trash width={40} height={40} />
+      </div>
     </SplideSlide>
     <SplideSlide>
       <div
@@ -245,5 +244,9 @@
 
   * :global(.no-events) {
     pointer-events: none;
+  }
+
+  .hidden {
+    visibility: hidden;
   }
 </style>
