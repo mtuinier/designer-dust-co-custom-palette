@@ -1,7 +1,7 @@
 <script lang="ts">
   import { activePalettes } from "../utils/palettes";
   import Trash from "svelte-material-icons/TrashCanOutline.svelte";
-  import { Splide, SplideSlide } from "@splidejs/svelte-splide";
+  import { Splide, SplideSlide, SplideTrack } from "@splidejs/svelte-splide";
   import "@splidejs/svelte-splide/css";
   import {
     miniPaletteLabelView,
@@ -59,6 +59,7 @@
   }
 
   function handleDragStart(e: DragEvent, i: number) {
+    e.stopPropagation();
     dragging = true;
     const p = $palette[i];
     if (!p) return;
@@ -82,8 +83,13 @@
 </script>
 
 <div class="custom">
-  <Splide options={{ width: 800 }} aria-label="Svelte Splide Example">
-    <SplideSlide>
+  <Splide
+    options={{
+      width: 800,
+      drag: false,
+    }}
+  >
+    <SplideSlide class="flex-center">
       <div
         class="container"
         class:round={kind === "mini"}
@@ -224,9 +230,20 @@
     justify-content: center;
   }
 
+  * :global(.flex-center) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .label {
     display: block;
     margin: 0 auto;
     width: 80%;
+  }
+
+  * :global(.no-events) {
+    pointer-events: none;
   }
 </style>
