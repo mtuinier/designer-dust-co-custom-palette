@@ -1,32 +1,8 @@
-export const colors = [
-  "Blue",
-  "Gold",
-  "Black",
-  "Blacklight",
-  "Green",
-  "Rainbow",
-  "Pink",
-  "Silver",
-  "420",
-  "Iridescent",
-  "Flakes",
-  "Purple",
-  "Orange",
-  "Copper",
-  "Jewish",
-  "Red",
-  "Brown",
-  "Yellow",
-  "White",
-] as const;
-
-type Color = typeof colors[number];
-
 export interface Palette {
   name: string;
   img: string;
   active: boolean;
-  colors: Color[];
+  colors: string[];
 }
 
 export const palettes: Palette[] = [
@@ -801,3 +777,13 @@ export const palettes: Palette[] = [
 ];
 
 export const activePalettes = palettes.filter((p) => !!p.active);
+
+const uniqueColors = palettes.reduce((acc, p) => {
+  p.colors.forEach((color) => {
+    acc.add(color);
+  });
+
+  return acc;
+}, new Set<string>());
+
+export const colorFilters = Array.from(uniqueColors);

@@ -87,6 +87,7 @@
     options={{
       width: 800,
       drag: false,
+      pagination: false,
     }}
   >
     <SplideSlide class="flex-center">

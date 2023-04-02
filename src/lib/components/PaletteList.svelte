@@ -1,24 +1,28 @@
 <script lang="ts">
   import Tooltip, { Wrapper } from "@smui/tooltip";
-  import Textfield from "@smui/textfield";
-  import HelperText from "@smui/textfield/helper-text";
-  import Chip, { Set, TrailingAction, Text } from "@smui/chips";
+  import IconButton, { Icon } from "@smui/icon-button";
+  import Checkbox from "@smui/checkbox";
+  import FormField from "@smui/form-field";
+  import Accordion, { Panel, Header, Content } from "@smui-extra/accordion";
   import type { PaletteStore, SelectedSegmentStore } from "../stores/palettes";
-  import { activePalettes, type Palette } from "../utils/palettes";
-  import { onMount } from "svelte";
+  import {
+    activePalettes,
+    colorFilters,
+    type Palette,
+  } from "../utils/palettes";
 
   export let palette: PaletteStore;
   export let selectedSegment: SelectedSegmentStore;
-  let filters: Map<string, undefined> = new Map();
-  let currentSearch = "";
-  $: filterArray = Array.from(filters.keys());
+  let filtersOpen = false;
+  let selectedFilters: string[] = [];
+
+  $: console.log(selectedFilters);
 
   $: filteredPalettes =
-    filters.size > 0
+    selectedFilters.length > 0
       ? activePalettes.filter((palette) => {
-          const colors = palette.colors.map((c) => c.toLowerCase());
-          for (const filter of filters.keys()) {
-            if (colors.includes(filter)) return true;
+          for (const filter of selectedFilters) {
+            if (palette.colors.includes(filter)) return true;
           }
         })
       : activePalettes;
@@ -32,38 +36,31 @@
     e.dataTransfer.setData("paletteDrag", JSON.stringify(palette));
     e.dataTransfer.dropEffect = "move";
   }
-
-  function handleFilterSubmission() {
-    filters.set(currentSearch.toLowerCase(), undefined);
-    filters = filters;
-    currentSearch = "";
-  }
-
-  function handleChipRemoval(chip: string) {
-    filters.delete(chip);
-    filters = filters;
-  }
 </script>
 
 <div>
-  <form on:submit|preventDefault={handleFilterSubmission}>
-    <Textfield bind:value={currentSearch} label="Filters" class="input">
-      <HelperText slot="helper">Enter one or more color filters</HelperText>
-    </Textfield>
-  </form>
-  <div>
-    <Set chips={filterArray} let:chip input>
-      <Chip {chip}>
-        <Text>{chip}</Text>
-        <TrailingAction
-          icon$class="material-icons"
-          on:SMUIChipsChipTrailingAction:unmount={() => handleChipRemoval(chip)}
-          >cancel</TrailingAction
-        >
-      </Chip>
-    </Set>
-  </div>
-  <p>
+  <Accordion>
+    <Panel variant="outlined" bind:open={filtersOpen}>
+      <Header>
+        Filter by Color
+        <IconButton slot="icon" toggle pressed={filtersOpen}>
+          <Icon class="material-icons" on>expand_less</Icon>
+          <Icon class="material-icons">expand_more</Icon>
+        </IconButton>
+      </Header>
+      <Content>
+        <div class="filters">
+          {#each colorFilters as option}
+            <FormField>
+              <Checkbox bind:group={selectedFilters} value={option} />
+              <span slot="label">{option}</span>
+            </FormField>
+          {/each}
+        </div>
+      </Content>
+    </Panel>
+  </Accordion>
+  <p class="sparkle-name">
     Sparkle {$selectedSegment + 1}
   </p>
   <div class="palette-list">
@@ -94,6 +91,15 @@
     width: 100px;
     height: 100px;
     border-radius: 100%;
+  }
+
+  .sparkle-name {
+    text-align: left;
+  }
+
+  .filters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   * :global(.input) {
