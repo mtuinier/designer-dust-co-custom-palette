@@ -265,7 +265,7 @@ export const palettes: Palette[] = [
     name: "Frickin' Bats",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-RsIH7TaJ7NVSLuNp5tEBnoTe.png",
     active: true,
-    colors: ["Black", "Halloween],
+    colors: ["Black", "Halloween"],
   },
   {
     name: "Friend In Me",
