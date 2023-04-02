@@ -33,8 +33,8 @@ export const palettes: Palette[] = [
   {
     name: "All Around Appeal",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-SdEEh2X9MuORgnHKivhQainp.png",
-    active: true,
-    colors: ["Blue", "Gold"], // Example for Helene
+    active: false,
+    colors: ["Blue", "Gold"],
   },
   {
     name: "Arcade Floor",
