@@ -676,7 +676,7 @@ export const palettes: Palette[] = [
     name: "Yellow Brick Hoe",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-nY2azD6LVKb_ekezAT9ayZS9.png",
     active: true,
-    colors: ['Yellow", "Gold"],
+    colors: ["Yellow", "Gold"],
   },
 ];
 
