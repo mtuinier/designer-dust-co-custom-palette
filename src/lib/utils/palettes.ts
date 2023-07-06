@@ -25,6 +25,12 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Pink"],
   },
+   {
+    name: "Bae Mitzvah",
+    img: "#",
+    active: true,
+    colors: ["Pink", "Iridescent","Jewish"],
+  },
   {
     name: "Bar Fly",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-23UqkKjly2RkNa_hYGKRmyCO.png",
@@ -38,10 +44,16 @@ export const palettes: Palette[] = [
     colors: ["Iridescent", "Pink", "Green", "Flakes"],
   },
   {
+    name: "Bar Fly Micro",
+    img: "",
+    active: true,
+    colors: ["Iridescent", "Pink", "Green", "Micro"],
+  },
+  {
     name: "Bejeweled",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-Pqu7YKcViuJTsYcs8Hf_wdx3.png",
     active: true,
-    colors: ["Rainbow", "Blue"],
+    colors: ["Rainbow", "Blue","Purple"],
   },
   {
     name: "Bling Bling",
@@ -56,10 +68,22 @@ export const palettes: Palette[] = [
     colors: ["Gold", "Flakes"],
   },
   {
+    name: "Bling Bling Micro",
+    img: "#",
+    active: true,
+    colors: ["Gold", "Micro"],
+  },
+  {
     name: "Blue Fly Skies",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-UeOORsd5Ed1pRJnhpxMjIxln.png",
     active: true,
     colors: ["Blue"],
+  },
+   {
+    name: "Blue Fly Skies Micro",
+    img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-UeOORsd5Ed1pRJnhpxMjIxln.png",
+    active: true,
+    colors: ["Blue","Micro"],
   },
   {
     name: "Bratty",
@@ -80,6 +104,12 @@ export const palettes: Palette[] = [
     colors: ["Pink", "Blacklight", "Flakes"],
   },
   {
+    name: "Bubblegum Bae Micro",
+    img: "#",
+    active: true,
+    colors: ["Pink", "Blacklight", "Micro"],
+  },
+  {
     name: "Bye Bye Binary",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-rg6rnRs7qE1pdtEPm_ER3Gd6.png",
     active: true,
@@ -98,10 +128,16 @@ export const palettes: Palette[] = [
     colors: ["Orange", "Copper", "Flakes"],
   },
   {
+    name: "C U Later Micro",
+    img: "#",
+    active: true,
+    colors: ["Orange", "Copper", "Micro"],
+  },
+  {
     name: "Call Me Big Papaya",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-F1pNm5_3bI7UJ0p2BY-UVZiw.png",
     active: true,
-    colors: ["Orange"],
+    colors: ["Orange", "Blacklight"],
   },
   {
     name: "Call You Mine",
@@ -114,6 +150,12 @@ export const palettes: Palette[] = [
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-9V5JXhL9oScaV3_-rTXCP5Wx.png",
     active: true,
     colors: ["Blue", "Blacklight"],
+  },
+  {
+    name: "Carolina Bae Micro",
+    img: "",
+    active: true,
+    colors: ["Blue", "Blacklight", "Micro"],
   },
   {
     name: "Celeste and Stars",
@@ -137,7 +179,7 @@ export const palettes: Palette[] = [
     name: "Champagne Kisses",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-SFfjQGk04CmqxJBVs1ttwFvr.png",
     active: true,
-    colors: ["Gold", "Green"],
+    colors: ["Gold", "Green", "Iridescent"],
   },
   {
     name: "Chip This",
@@ -149,7 +191,7 @@ export const palettes: Palette[] = [
     name: "Citrus Ice",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-4IaHJD3yyICZUPm1uarmVijY.png",
     active: true,
-    colors: ["Yellow"],
+    colors: ["Yellow","Blacklight"],
   },
   {
     name: "Civic Duty",
@@ -161,7 +203,7 @@ export const palettes: Palette[] = [
     name: "Cloud 9",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-pMh-uNJOM_0a8Ve2Em5rCjwH.png",
     active: true,
-    colors: ["White", "Iridescent"],
+    colors: ["White", "Iridescent", "Blacklight"],
   },
   
   {
@@ -177,10 +219,22 @@ export const palettes: Palette[] = [
     colors: ["Iridescent", "Blue", "Orange"],
   },
   {
+    name: "Day Break Micro",
+    img: "#",
+    active: true,
+    colors: ["Iridescent", "Blue", "Orange", "Micro"],
+  },
+  {
     name: "Disco Pants",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-MSgKIUvnuzJRcWeDTTpTDDpU.png",
     active: true,
     colors: ["Pink", "Purple", "Gold"],
+  },
+  {
+    name: "Disco Pants Micro",
+    img: "#",
+    active: true,
+    colors: ["Pink", "Purple", "Gold","Micro"],
   },
   {
     name: "Disco Queen",
@@ -193,6 +247,12 @@ export const palettes: Palette[] = [
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-cmrtcNXKikms3WvNBMnPJJ-v.png",
     active: true,
     colors: ["Red"],
+  },
+  {
+    name: "Dorothy's Red Bottoms Micro",
+    img: "#",
+    active: true,
+    colors: ["Red", "Micro"],
   },
   {
     name: "Dorothy's Red Flakes",
@@ -211,6 +271,12 @@ export const palettes: Palette[] = [
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-J0f8T3yr3xEquA-SGYqd_23t.png",
     active: true,
     colors: ["Orange", "Blacklight", "Flakes"],
+  },
+  {
+    name: "Electric Clementine Micro",
+    img: "#",
+    active: true,
+    colors: ["Orange", "Blacklight", "Micro"],
   },
   {
     name: "Electric Clementine",
@@ -236,11 +302,23 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Green", "Flakes"],
   },
+   {
+    name: "Emerald City Micro",
+    img: "#",
+    active: true,
+    colors: ["Green", "Micro"],
+  },
   {
     name: "Enchantress",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-un3V1mbOldTfz6OXa6zcxaSx.png",
     active: true,
     colors: ["Red", "Pink"],
+  },
+  {
+    name: "Enchantress Micro",
+    img: "#",
+    active: true,
+    colors: ["Red", "Pink", "Micro"],
   },
   {
     name: "Erase Her Flakes",
@@ -260,7 +338,18 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Yellow", "Rainbow"],
   },
-  
+  {
+    name: "Facefetti Micro",
+    img: "#",
+    active: true,
+    colors: ["Yellow", "Rainbow","Micro"],
+  },
+  {
+    name: "Flower Child",
+    img: "#",
+    active: true,
+    colors: ["Pink", "Rainbow", "Blacklight"],
+  },
   {
     name: "Frickin' Bats",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-RsIH7TaJ7NVSLuNp5tEBnoTe.png",
@@ -271,7 +360,7 @@ export const palettes: Palette[] = [
     name: "Friend In Me",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-6IFNevQw9WYa0rO3m4CEmQKH.png",
     active: true,
-    colors: ["Blue"],
+    colors: ["Blue","Blacklight"],
   },
   {
     name: "Full Moon",
@@ -284,6 +373,12 @@ export const palettes: Palette[] = [
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-LM62v447g0XC3VueV-t6ZZYx.png",
     active: true,
     colors: ["Iridescent", "Rainbow", "Flakes"],
+  },
+   {
+    name: "Full Moon Micro",
+    img: "#",
+    active: true,
+    colors: ["Iridescent", "Rainbow", "Micro"],
   },
   {
     name: "Glazed and Confused",
@@ -334,10 +429,22 @@ export const palettes: Palette[] = [
     colors: ["Pink", "Iridescent"],
   },
   {
+    name: "Jay Walker Micro",
+    img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-6QESIAqJ8g2OIes5VpVdrJ7d.png",
+    active: true,
+    colors: ["Pink", "Iridescent","Micro"],
+  },
+  {
     name: "Lavender Bae",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-u5bApfAr2Joo_0dCSkt_PG5v.png",
     active: true,
-    colors: ["Purple"],
+    colors: ["Purple","Blacklight"],
+  },
+  {
+    name: "Lavender Bae Micro",
+    img: "#",
+    active: true,
+    colors: ["Purple","Blacklight","Micro"],
   },
   {
     name: "Lick the Spoon",
@@ -358,10 +465,22 @@ export const palettes: Palette[] = [
     colors: ["Yellow", "Purple", "Iridescent", "Flakes"],
   },
   {
+    name: "Light Catcher Micro",
+    img: "#",
+    active: true,
+    colors: ["Yellow", "Purple", "Iridescent", "Micro"],
+  },
+  {
     name: "Lights Out",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-uXOIBLbvD600g2eLBpQpVOTj.png",
     active: true,
     colors: ["Black", "Gold"],
+  },
+  {
+    name: "Lights Out Micro",
+    img: "#",
+    active: true,
+    colors: ["Black", "Gold","Micro"],
   },
   {
     name: "Lilac Dreams",
@@ -417,6 +536,12 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Green", "Iridescent", "Blacklight", "Flakes"],
   },
+   {
+    name: "Matcha Mint Micro",
+    img: "#",
+    active: true,
+    colors: ["Green", "Iridescent", "Blacklight", "Micro"],
+  },
   {
     name: "Mellow Yellow",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-8050758254825-CXRYWSS0xSr6CaylS4_U_dNw.png",
@@ -430,10 +555,28 @@ export const palettes: Palette[] = [
     colors: ["Blue", "Green", "Purple"],
   },
   {
+    name: "Mermaid Vibes Micro",
+    img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-WycaKnVNpdeaG2aAVqyrn4D1.png",
+    active: true,
+    colors: ["Blue", "Green", "Purple","Micro"],
+  },
+  {
     name: "Mirror Mirror",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-yoCjC0TBUvGvT6YkE3E4apXD.png",
     active: true,
     colors: ["Silver"],
+  },
+   {
+    name: "Mirror Mirror Micro",
+    img: "#",
+    active: true,
+    colors: ["Silver","Micro"],
+  },
+   {
+    name: "Moon Child",
+    img: "#",
+    active: true,
+    colors: ["Iridescent","Rainbow"],
   },
   {
     name: "Nebula",
@@ -446,6 +589,12 @@ export const palettes: Palette[] = [
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-hVd_Hunjtprteu5POAsvFeSv.png",
     active: true,
     colors: ["Black"],
+  },
+   {
+    name: "Nightfall Micro",
+    img: "#",
+    active: true,
+    colors: ["Black","Micro"],
   },
   
   {
@@ -510,6 +659,12 @@ export const palettes: Palette[] = [
     colors: ["Purple", "Flakes"],
   },
   {
+    name: "Reign On Me Micro",
+    img: "#",
+    active: true,
+    colors: ["Purple", "Micro"],
+  },
+  {
     name: "Roller Rink",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-yMGmWmtTLZmNrLFDr0j5C4RD.png",
     active: true,
@@ -546,7 +701,7 @@ export const palettes: Palette[] = [
     colors: ["Purple", "Blacklight", "Flakes"],
   },
   {
-    name: "Starbright ",
+    name: "Starbright",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-4pUMrLI1TwReL_jyEb9YgS0z.png",
     active: true,
     colors: ["Silver"],
@@ -556,6 +711,12 @@ export const palettes: Palette[] = [
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-L1mrNz5ZsZKK4Fum9UtCPvXD.png",
     active: true,
     colors: ["Silver", "Flakes"],
+  },
+  {
+    name: "Starbright Micro",
+    img: "#",
+    active: true,
+    colors: ["Silver", "Micro"],
   },
   {
     name: "Stormy Vibes",
@@ -574,6 +735,12 @@ export const palettes: Palette[] = [
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-INm0PBGN-dSDOHHdG1K6MnYK.png",
     active: true,
     colors: ["Yellow", "Blacklight"],
+  },
+   {
+    name: "Sunshine Bae Micro",
+    img: "#",
+    active: true,
+    colors: ["Yellow", "Blacklight","Micro"],
   },
   {
     name: "Sunshine Ice Flakes",
@@ -597,7 +764,7 @@ export const palettes: Palette[] = [
     name: "Tainted Heart",
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-_R_GjYGRE0z-xOXf0vqrmbyy.png",
     active: true,
-    colors: ["Iridescent", "Pink", "Green", "Purple"],
+    colors: ["Iridescent", "Pink", "Green"],
   },
   {
     name: "Tastes Like Pink",
@@ -665,6 +832,12 @@ export const palettes: Palette[] = [
     img: "https://storage.googleapis.com/custom-product-builder/53761573040/designer-dust-co-7822476345577-I1UlGqbB7dHg0WUpeGYS42VC.png",
     active: true,
     colors: ["Red"],
+  },
+   {
+    name: "Wedding Cake",
+    img: "#",
+    active: true,
+    colors: ["Gold","Pink","Yellow","Iridescent"],
   },
   {
     name: "Y2J",
