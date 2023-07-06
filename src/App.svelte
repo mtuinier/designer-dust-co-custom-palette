@@ -1,6 +1,5 @@
 <script lang="ts">
-  import Tab, { Label } from "@smui/tab";
-  import TabBar from "@smui/tab-bar";
+  import { onMount } from "svelte";
 
   import PaletteContainer from "./lib/components/PaletteContainer.svelte";
   import PaletteList from "./lib/components/PaletteList.svelte";
@@ -13,22 +12,23 @@
     vaultSelectedSegment,
   } from "./lib/stores/palettes";
 
-  let active = "Mini Palette";
+  let price = 0; // in cents
+  let productHandle = "";
+  let productId = "";
+  let variant = "";
+
+  onMount(async () => {
+    const dataset = document.getElementById("app").dataset;
+    productId = dataset.productId ?? "";
+    variant = dataset.variant ?? "";
+    productHandle = dataset.productHandle ?? "custom-mini-palette";
+    price = Number(dataset.price) ?? 0;
+  });
 </script>
 
 <div class="inner">
-  <TabBar
-    tabs={["Mini Palette", "Standard Palette", "Vault"]}
-    let:tab
-    bind:active
-  >
-    <Tab {tab}>
-      <Label>{tab}</Label>
-    </Tab>
-  </TabBar>
-
   <div class="widget">
-    {#if active === "Mini Palette"}
+    {#if productHandle === "custom-mini-palette"}
       <PaletteContainer
         palette={miniPalette}
         kind="mini"
@@ -36,10 +36,15 @@
       />
       <PaletteList
         palette={miniPalette}
+        kind="mini"
         selectedSegment={miniSelectedSegment}
+        {price}
+        {productHandle}
+        {productId}
+        {variant}
       />
     {/if}
-    {#if active === "Standard Palette"}
+    {#if productHandle === "custom-24-face-sprinkles-palette"}
       <PaletteContainer
         palette={standardPalette}
         kind="standard"
@@ -47,10 +52,15 @@
       />
       <PaletteList
         palette={standardPalette}
+        kind="standard"
         selectedSegment={standardSelectedSegment}
+        {price}
+        {productHandle}
+        {productId}
+        {variant}
       />
     {/if}
-    {#if active === "Vault"}
+    {#if productHandle === "custom-vault"}
       <PaletteContainer
         palette={vaultPalette}
         kind="vault"
@@ -58,7 +68,12 @@
       />
       <PaletteList
         palette={vaultPalette}
+        kind="vault"
         selectedSegment={vaultSelectedSegment}
+        {price}
+        {productHandle}
+        {productId}
+        {variant}
       />
     {/if}
   </div>
@@ -69,10 +84,24 @@
     min-height: 100%;
   }
   .widget {
-    margin-top: 80px;
+    margin-bottom: 80px;
     position: relative;
     display: flex;
     align-items: flex-start;
+    justify-content: flex-end;
     gap: 80px;
+  }
+
+  @media screen and (max-width: 1400px) {
+    .widget {
+      gap: 40px;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+    .widget {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 </style>

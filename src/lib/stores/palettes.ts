@@ -23,7 +23,7 @@ function createPalette(count: number) {
         p[target] = undefined;
         return p;
       }),
-    reset: () => set(new Array(16).fill(undefined)),
+    reset: () => set(new Array(count).fill(undefined)),
   };
 }
 

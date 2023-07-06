@@ -5,6 +5,14 @@ import { svelte } from "@sveltejs/vite-plugin-svelte";
 export default defineConfig({
   plugins: [svelte()],
   optimizeDeps: {
-    include: ["lodash.get", "lodash.isequal", "lodash.clonedeep"],
+    include: [
+      "lodash.get",
+      "lodash.isequal",
+      "lodash.clonedeep",
+      "@google-cloud/storage",
+    ],
+  },
+  build: {
+    minify: false,
   },
 });
