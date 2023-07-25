@@ -39,7 +39,7 @@ export const palettes: Palette[] = [
   },
   {
     name: "Bar Fly Flakes",
-    img: "#",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/barflyflakes_square.jpg?v=1688659630",
     active: true,
     colors: ["Iridescent", "Pink", "Green", "Flakes"],
   },
@@ -147,7 +147,7 @@ export const palettes: Palette[] = [
   },
   {
     name: "Carolina Bae",
-    img: "#",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/carolinabae_square.jpg?v=1688659663",
     active: true,
     colors: ["Blue", "Blacklight"],
   },
@@ -298,7 +298,7 @@ export const palettes: Palette[] = [
   },
   {
     name: "Emerald City Flakes",
-    img: "#",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/emeraldcityflake_square.jpg?v=1688659671",
     active: true,
     colors: ["Green", "Flakes"],
   },
@@ -352,7 +352,7 @@ export const palettes: Palette[] = [
   },
   {
     name: "Frickin' Bats",
-    img: "#",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/frickinbats_square.jpg?v=1688659652",
     active: true,
     colors: ["Black", "Halloween"],
   },
@@ -472,7 +472,7 @@ export const palettes: Palette[] = [
   },
   {
     name: "Lights Out",
-    img: "#",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/lightsout_square.jpg?v=1688659682",
     active: true,
     colors: ["Black", "Gold"],
   },
@@ -599,7 +599,7 @@ export const palettes: Palette[] = [
   
   {
     name: "Oh Snap",
-    img: "#",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/ohsnap_square.jpg?v=1688659641",
     active: true,
     colors: ["Black", "Silver"],
   },
@@ -607,7 +607,7 @@ export const palettes: Palette[] = [
     name: "Paint the Mouse",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/paintthemouse_swatch.jpg?v=1688615931",
     active: true,
-    colors: ["Siver", "Blacklight"],
+    colors: ["Silver", "Blacklight"],
   },
   {
     name: "Party Foul Flakes",
@@ -636,7 +636,7 @@ export const palettes: Palette[] = [
   },
   {
     name: "Rave Candy",
-    img: "#",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/ravecandy_swatch.webp?v=1690247486",
     active: true,
     colors: ["Purple", "Blacklight"],
   },
@@ -752,7 +752,7 @@ export const palettes: Palette[] = [
     name: "Sweet Dreamz",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/sweetdreamz_swatch.jpg?v=1688615931",
     active: true,
-    colors: ["Bue"],
+    colors: ["Blue"],
   },
   {
     name: "Sweet Hearts",
@@ -817,7 +817,7 @@ export const palettes: Palette[] = [
   },
   {
     name: "We Got Spirit",
-    img: "#",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/wegotspirit_swatch.webp?v=1690247486",
     active: true,
     colors: ["Red", "Silver"],
   },
