@@ -6,7 +6,6 @@ export interface Palette {
 }
 
 export const palettes: Palette[] = [
-  
   {
     name: "Arcade Floor",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/arcadefloor_swatch.jpg?v=1688618078",
@@ -25,11 +24,11 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Pink"],
   },
-   {
+  {
     name: "Bae Mitzvah",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/baemitzvah_swatch.jpg?v=1688615932",
     active: true,
-    colors: ["Pink", "Iridescent","Jewish"],
+    colors: ["Pink", "Iridescent", "Jewish"],
   },
   {
     name: "Bar Fly",
@@ -53,7 +52,7 @@ export const palettes: Palette[] = [
     name: "Bejeweled",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/bejeweled_swatch.jpg?v=1688615932",
     active: true,
-    colors: ["Rainbow", "Blue","Purple"],
+    colors: ["Rainbow", "Blue", "Purple"],
   },
   {
     name: "Bling Bling",
@@ -79,11 +78,11 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Blue"],
   },
-   {
+  {
     name: "Blue Fly Skies Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/blueflyskiesmicro_swatch.jpg?v=1688615932",
     active: true,
-    colors: ["Blue","Micro"],
+    colors: ["Blue", "Micro"],
   },
   {
     name: "Bratty",
@@ -191,7 +190,7 @@ export const palettes: Palette[] = [
     name: "Citrus Ice",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/citrusice_swatch.jpg?v=1688615931",
     active: true,
-    colors: ["Yellow","Blacklight"],
+    colors: ["Yellow", "Blacklight"],
   },
   {
     name: "Civic Duty",
@@ -205,7 +204,7 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["White", "Iridescent", "Blacklight"],
   },
-  
+
   {
     name: "Day Break Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/daybreakflakes_swatch.jpg?v=1688615931",
@@ -234,7 +233,7 @@ export const palettes: Palette[] = [
     name: "Disco Pants Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/discopantsmicro_swatch.jpg?v=1688615932",
     active: true,
-    colors: ["Pink", "Purple", "Gold","Micro"],
+    colors: ["Pink", "Purple", "Gold", "Micro"],
   },
   {
     name: "Disco Queen",
@@ -302,7 +301,7 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Green", "Flakes"],
   },
-   {
+  {
     name: "Emerald City Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/emeraldcityskylinemicro_swatch.jpg?v=1688615933",
     active: true,
@@ -342,7 +341,7 @@ export const palettes: Palette[] = [
     name: "Facefetti Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/facefettimicro_swatch.jpg?v=1688615932",
     active: true,
-    colors: ["Yellow", "Rainbow","Micro"],
+    colors: ["Yellow", "Rainbow", "Micro"],
   },
   {
     name: "Flower Child",
@@ -360,7 +359,7 @@ export const palettes: Palette[] = [
     name: "Friend In Me",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/friendinme__swatch.jpg?v=1688615931",
     active: true,
-    colors: ["Blue","Blacklight"],
+    colors: ["Blue", "Blacklight"],
   },
   {
     name: "Full Moon",
@@ -374,7 +373,7 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Iridescent", "Rainbow", "Flakes"],
   },
-   {
+  {
     name: "Full Moon Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/fullmoonmicro_swatch.jpg?v=1688615931",
     active: true,
@@ -432,19 +431,19 @@ export const palettes: Palette[] = [
     name: "Jay Walker Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/jaywalkermicro_swatch.jpg?v=1688615931",
     active: true,
-    colors: ["Pink", "Iridescent","Micro"],
+    colors: ["Pink", "Iridescent", "Micro"],
   },
   {
     name: "Lavender Bae",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/lavenderbae_swatch.jpg?v=1688615932",
     active: true,
-    colors: ["Purple","Blacklight"],
+    colors: ["Purple", "Blacklight"],
   },
   {
     name: "Lavender Bae Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/lavenderbaemicro_swatch.jpg?v=1688615932",
     active: true,
-    colors: ["Purple","Blacklight","Micro"],
+    colors: ["Purple", "Blacklight", "Micro"],
   },
   {
     name: "Lick the Spoon",
@@ -480,7 +479,7 @@ export const palettes: Palette[] = [
     name: "Lights Out Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/lightsoutmicro_swatch.jpg?v=1688615932",
     active: true,
-    colors: ["Black", "Gold","Micro"],
+    colors: ["Black", "Gold", "Micro"],
   },
   {
     name: "Lilac Dreams",
@@ -536,7 +535,7 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Green", "Iridescent", "Blacklight", "Flakes"],
   },
-   {
+  {
     name: "Matcha Mint Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/matchamintmicro_swatch.jpg?v=1688615932",
     active: true,
@@ -558,7 +557,7 @@ export const palettes: Palette[] = [
     name: "Mermaid Vibes Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/mermaidvibesmicro_swatch.jpg?v=1688615932",
     active: true,
-    colors: ["Blue", "Green", "Purple","Micro"],
+    colors: ["Blue", "Green", "Purple", "Micro"],
   },
   {
     name: "Mirror Mirror",
@@ -566,17 +565,17 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Silver"],
   },
-   {
+  {
     name: "Mirror Mirror Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/mirrormirrormicro_swatch.jpg?v=1688615933",
     active: true,
-    colors: ["Silver","Micro"],
+    colors: ["Silver", "Micro"],
   },
-   {
+  {
     name: "Moon Child",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/moonchild_swatch.jpg?v=1688615931",
     active: true,
-    colors: ["Iridescent","Rainbow"],
+    colors: ["Iridescent", "Rainbow"],
   },
   {
     name: "Nebula",
@@ -590,13 +589,13 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Black"],
   },
-   {
+  {
     name: "Nightfall Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/nightfallmicro_swatch.jpg?v=1688615931",
     active: true,
-    colors: ["Black","Micro"],
+    colors: ["Black", "Micro"],
   },
-  
+
   {
     name: "Oh Snap",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/ohsnap_square.jpg?v=1688659641",
@@ -621,7 +620,7 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Pink"],
   },
- 
+
   {
     name: "Pixie",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/pixie_swatch.jpg?v=1688615932",
@@ -736,11 +735,11 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Yellow", "Blacklight"],
   },
-   {
+  {
     name: "Sunshine Bae Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/sunshinebaemicro_swatch.jpg?v=1688615932",
     active: true,
-    colors: ["Yellow", "Blacklight","Micro"],
+    colors: ["Yellow", "Blacklight", "Micro"],
   },
   {
     name: "Sunshine Ice Flakes",
@@ -778,7 +777,7 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Silver", "Iridescent", "Blacklight"],
   },
-  
+
   {
     name: "Touch Grass",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/touchgrass_swatch.jpg?v=1688615932",
@@ -833,11 +832,11 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Red"],
   },
-   {
+  {
     name: "Wedding Cake",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/weddincake_swatch.jpg?v=1688615932",
     active: true,
-    colors: ["Gold","Pink","Yellow","Iridescent"],
+    colors: ["Gold", "Pink", "Yellow", "Iridescent"],
   },
   {
     name: "Y2J",
@@ -853,7 +852,11 @@ export const palettes: Palette[] = [
   },
 ];
 
-export const activePalettes = palettes.filter((p) => !!p.active);
+export const activePalettes = palettes
+  .filter((p) => !!p.active)
+  .sort((a, b) =>
+    a.name.toLowerCase().at(0).localeCompare(b.name.toLowerCase().at(0))
+  );
 
 const uniqueColors = palettes.reduce((acc, p) => {
   p.colors.forEach((color) => {
