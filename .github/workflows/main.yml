@@ -38,3 +38,6 @@ jobs:
 
       - name: push to gcp bucket
         run: gcloud storage cp ./dist/assets/index.js gs://"${{ env.GCP_BUCKET_NAME }}"
+
+      - name: update cache headers
+        run: gsutil setmeta -r -h "Cache-control:no-store, max-age=0" gs://"${{ env.GCP_BUCKET_NAME }}"
