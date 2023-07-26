@@ -383,6 +383,7 @@
     .custom {
       top: 48px;
     }
+
     .label {
       font-size: 2vw;
     }
@@ -393,6 +394,18 @@
 
     .label-vault {
       font-size: 1.2vw;
+    }
+
+    .clone .label {
+      font-size: 22px;
+    }
+
+    .clone .label-standard {
+      font-size: 18px;
+    }
+
+    .clone .label-vault {
+      font-size: 18px;
     }
   }
 </style>

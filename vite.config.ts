@@ -13,6 +13,14 @@ export default defineConfig({
     ],
   },
   build: {
-    minify: false,
+    minify: true,
+    cssMinify: false,
+    rollupOptions: {
+      output: {
+        entryFileNames: `assets/[name].js`,
+        chunkFileNames: `assets/[name].js`,
+        assetFileNames: `assets/[name].[ext]`,
+      },
+    },
   },
 });

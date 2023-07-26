@@ -19,7 +19,6 @@
   export let palette: PaletteStore;
   export let selectedSegment: SelectedSegmentStore;
   export let price: number;
-  export let productId: string;
   export let variant: string;
   export let productHandle: string;
   export let kind: Kind;
@@ -99,6 +98,7 @@
       const offscreen = document.getElementById("offscreen");
       clone.style.width = config[kind].width;
       clone.style.height = config[kind].height;
+      clone.classList.add("clone");
       offscreen.appendChild(clone);
       const segments = [...clone.getElementsByClassName("label-segment")];
       segments.forEach((s, i) => {
@@ -113,6 +113,7 @@
           }
         }
       });
+      await new Promise((res) => setTimeout(res, 50));
       const canvas = await h2c(clone);
       offscreen.remove();
       return canvas;
