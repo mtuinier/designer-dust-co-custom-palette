@@ -1,0 +1,26 @@
+on:
+  push:
+    branches:
+     - preview
+     - production
+jobs:
+  build_and_deploy:
+    runs-on: ubutu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Set environment for branch
+        run: |
+          if [[ $GITHUB_REF == 'refs/heads/preview' ]]; then
+              echo "GCP_BUCKET_NAME=ddc_dev_scripts" >> "$GITHUB_ENV"
+          else
+              echo "GCP_BUCKET_NAME=ddc_dev_scripts" >> "$GITHUB_ENV"
+          fi
+      - name: install dependencies
+        run: npm install
+      - name: build application
+        run: npm run build
+      - name: test
+        run: echo "${{ env.GCP_BUCKET_NAME }}"
