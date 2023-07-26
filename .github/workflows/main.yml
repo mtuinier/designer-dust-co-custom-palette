@@ -36,7 +36,10 @@ jobs:
       - name: build application
         run: npm run build
 
-      - name: push to gcp bucket
+      - name: push js to gcp bucket
+        run: gcloud storage cp ./dist/assets/index.js gs://"${{ env.GCP_BUCKET_NAME }}"
+
+      - name: push css to gcp bucket
         run: gcloud storage cp ./dist/assets/index.js gs://"${{ env.GCP_BUCKET_NAME }}"
 
       - name: update cache headers
