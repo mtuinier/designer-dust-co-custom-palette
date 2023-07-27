@@ -772,7 +772,7 @@ export const palettes: Palette[] = [
     colors: ["Pink", "Gold"],
   },
   {
-    name: "TechnoScope",
+    name: "Techno Scope",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/technoscope_swatch.jpg?v=1688615932",
     active: true,
     colors: ["Silver", "Iridescent", "Blacklight"],
