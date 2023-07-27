@@ -16,8 +16,8 @@ jobs:
 
       - name: Set environment for branch
         run: |
-          if [[ $GITHUB_REF == 'refs/heads/preview' ]]; then
-              echo "GCP_BUCKET_NAME=ddc_dev_scripts" >> "$GITHUB_ENV"
+          if [[ $GITHUB_REF == 'refs/heads/production' ]]; then
+              echo "GCP_BUCKET_NAME=ddc_scripts" >> "$GITHUB_ENV"
           else
               echo "GCP_BUCKET_NAME=ddc_dev_scripts" >> "$GITHUB_ENV"
           fi
