@@ -198,7 +198,7 @@
     position: sticky;
     top: 80px;
     gap: 16px;
-    font-family: "Keep on Truckin";
+    font-family: "The Love Club";
     text-align: center;
   }
 

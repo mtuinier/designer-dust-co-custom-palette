@@ -303,7 +303,7 @@
   }
 
   .offscreen {
-    font-family: "Keep on Truckin";
+    font-family: "The Love Club";
     text-align: center;
     position: absolute;
     left: 5000px;
