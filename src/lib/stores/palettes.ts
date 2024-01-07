@@ -33,15 +33,7 @@ export const miniPalette = createPalette(16);
 export const standardPalette = createPalette(24);
 export const vaultPalette = createPalette(36);
 
-export const miniPaletteLabelView = derived(miniPalette, ($miniPaltte) => {
-  const labels: Palette[] = [];
-  $miniPaltte.forEach((palette, i) => {
-    labels[transposedMapping[i]] = palette;
-  });
-  return labels;
-});
-
-const transposedMapping = {
+const miniTransposedMapping = {
   0: 3,
   1: 2,
   2: 1,
@@ -59,6 +51,52 @@ const transposedMapping = {
   14: 13,
   15: 12,
 };
+
+const standardTransposedMapping = {
+  0: 7,
+  1: 6,
+  2: 5,
+  3: 4,
+  4: 3,
+  5: 2,
+  6: 1,
+  7: 0,
+  8: 15,
+  9: 14,
+  10: 13,
+  11: 12,
+  12: 11,
+  13: 10,
+  14: 9,
+  15: 8,
+  16: 23,
+  17: 22,
+  18: 21,
+  19: 20,
+  20: 19,
+  21: 18,
+  22: 17,
+  23: 16,
+};
+
+export const miniPaletteLabelView = derived(miniPalette, ($miniPalette) => {
+  const labels: Palette[] = [];
+  $miniPalette.forEach((palette, i) => {
+    labels[miniTransposedMapping[i]] = palette;
+  });
+  return labels;
+});
+
+export const standardPaletteLabelView = derived(
+  standardPalette,
+  ($standardPalette) => {
+    const labels: Palette[] = [];
+    $standardPalette.forEach((palette, i) => {
+      labels[standardTransposedMapping[i]] = palette;
+    });
+    return labels;
+  }
+);
 
 function createSelectedSegment() {
   const { subscribe, update } = writable(0);

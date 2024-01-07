@@ -7,7 +7,10 @@
   import FormField from "@smui/form-field";
   import Accordion, { Panel, Header, Content } from "@smui-extra/accordion";
   import type { PaletteStore, SelectedSegmentStore } from "../stores/palettes";
-  import { miniPaletteLabelView } from "../stores/palettes";
+  import {
+    miniPaletteLabelView,
+    standardPaletteLabelView,
+  } from "../stores/palettes";
   import {
     activePalettes,
     colorFilters,
@@ -105,7 +108,11 @@
         if (s instanceof HTMLElement) {
           s.style.fontSize = kind === "mini" ? "22px" : "18px";
           const currentLabels =
-            kind === "mini" ? $miniPaletteLabelView : palette;
+            kind === "mini"
+              ? $miniPaletteLabelView
+              : kind === "standard"
+                ? $standardPaletteLabelView
+                : palette;
           const words = currentLabels[i]?.name?.split(" ") || "";
           for (let word of words) {
             if (word.length > 8)
@@ -150,12 +157,11 @@
     try {
       const filename = await uploadToBucket("back-labels");
       if (filename) {
-        properties[
-          "View - Back: "
-        ] = `https://storage.googleapis.com/ddc_custom_palette_labels/${filename}`;
+        properties["View - Back: "] =
+          `https://storage.googleapis.com/ddc_custom_palette_labels/${filename}`;
       }
-    } catch {
-      console.error("something went wrong");
+    } catch (e) {
+      console.error("something went wrong", e);
     }
     let formData = {
       items: [
