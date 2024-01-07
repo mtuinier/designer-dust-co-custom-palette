@@ -1,1 +1,1 @@
-# Designer Dust Co Custom Palettes
+# Designer Dust Co Custom Palette
