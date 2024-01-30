@@ -392,6 +392,18 @@ export const palettes: Palette[] = [
     colors: ["Iridescent", "Orange", "Blue"],
   },
   {
+    name: "Good For You Flakes",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/GOOD_FOR_YOU_FLAKES.png?v=1704748915",
+    active: true,
+    colors: ["Iridescent", "Orange", "Blue","Flakes"],
+  },
+  {
+    name: "Good For You Micro",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/GOOD_FOR_YOU_MICRO.png?v=1704748915",
+    active: true,
+    colors: ["Iridescent", "Orange", "Blue","Micro"],
+  },
+  {
     name: "Green Goddess",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/greengoddess_swatch.jpg?v=1688615932",
     active: true,
@@ -849,6 +861,42 @@ export const palettes: Palette[] = [
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/y2j_swatch.jpg?v=1688615932",
     active: true,
     colors: ["Yellow", "Gold"],
+  },
+  {
+    name: "Bats What She Said",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/BATS_WHNAT_SHE_SAID.png?v=1704748915",
+    active: true,
+    colors: ["Pink", "Orange","Blacklight","Halloween"],
+  },
+  {
+    name: "Bet On Me",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/BE_ON_ME.png?v=1704748915",
+    active: true,
+    colors: ["Red", "Black"],
+  },
+  {
+    name: "Flashback",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/FLASHBACK.png?v=1704748915",
+    active: true,
+    colors: ["Pink", "Orange","Yellow","Reflective"],
+  },
+  {
+    name: "Marshmellow Dreamz",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/MARSHMELLOW_DREAMZ.png?v=1704748915",
+    active: true,
+    colors: ["White", "Pink","Orange","Yellow","Iridescent"],
+  },
+  {
+    name: "Mermaid Mist",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/MERMIAD_MIST.png?v=1704748915",
+    active: true,
+    colors: ["Green","Blue","Iridescent"],
+  },
+  {
+    name: "Death Valley",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/DEATH_VALLEY.png?v=1704748916",
+    active: true,
+    colors: ["Purple","Orange"],
   },
 ];
 
