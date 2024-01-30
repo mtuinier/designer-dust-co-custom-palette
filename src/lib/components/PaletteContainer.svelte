@@ -5,6 +5,7 @@
   import "@splidejs/svelte-splide/css";
   import {
     miniPaletteLabelView,
+    standardPaletteLabelView,
     type PaletteStore,
     type SelectedSegmentStore,
   } from "../stores/palettes";
@@ -39,7 +40,12 @@
     },
   };
 
-  $: labels = kind === "mini" ? miniPaletteLabelView : palette;
+  $: labels =
+    kind === "mini"
+      ? miniPaletteLabelView
+      : kind === "standard"
+        ? standardPaletteLabelView
+        : palette;
 
   const settings = config[kind];
 
@@ -192,7 +198,7 @@
     position: sticky;
     top: 80px;
     gap: 16px;
-    font-family: "Keep on Truckin";
+    font-family: "The Love Club", "Keep on Truckin";
     text-align: center;
   }
 

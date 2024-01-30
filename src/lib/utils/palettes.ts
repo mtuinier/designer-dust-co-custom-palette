@@ -204,7 +204,12 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["White", "Iridescent", "Blacklight"],
   },
-
+{
+    name: "Cloud 9 Micro",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/CLOUD_9_MICRO.png?v=1704748916",
+    active: true,
+    colors: ["White", "Iridescent", "Blacklight","Micro"],
+  },
   {
     name: "Day Break Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/daybreakflakes_swatch.jpg?v=1688615931",
@@ -264,6 +269,12 @@ export const palettes: Palette[] = [
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/duetee_swatch.jpg?v=1688615932",
     active: true,
     colors: ["Brown"],
+  },
+   {
+    name: "Due Tee Micro",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/DUE_TEE_MICRO.png?v=1704749818",
+    active: true,
+    colors: ["Brown","Micro"],
   },
   {
     name: "Electric Clementine Flakes",
@@ -392,6 +403,18 @@ export const palettes: Palette[] = [
     colors: ["Iridescent", "Orange", "Blue"],
   },
   {
+    name: "Good For You Flakes",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/GOOD_FOR_YOU_FLAKES.png?v=1704748915",
+    active: true,
+    colors: ["Iridescent", "Orange", "Blue","Flakes"],
+  },
+  {
+    name: "Good For You Micro",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/GOOD_FOR_YOU_MICRO.png?v=1704748915",
+    active: true,
+    colors: ["Iridescent", "Orange", "Blue","Micro"],
+  },
+  {
     name: "Green Goddess",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/greengoddess_swatch.jpg?v=1688615932",
     active: true,
@@ -506,7 +529,7 @@ export const palettes: Palette[] = [
     colors: ["Purple"],
   },
   {
-    name: "Lunar Magic Flakes",
+    name: "Lunar Magick Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/lunarmagickflake_swatch.jpg?v=1688615932",
     active: true,
     colors: ["Blue", "Flakes"],
@@ -516,6 +539,12 @@ export const palettes: Palette[] = [
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/lunarmagick_swatch.jpg?v=1688615932",
     active: true,
     colors: ["Blue"],
+  },
+  {
+    name: "Lunar Magick Micro",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/LUNAR_MAGICK_MICRO.png?v=1704749818",
+    active: true,
+    colors: ["Blue", "Micro"],
   },
   {
     name: "Mama Sparkles Magick",
@@ -766,10 +795,28 @@ export const palettes: Palette[] = [
     colors: ["Iridescent", "Pink", "Green"],
   },
   {
+    name: "Tainted Heart Flakes",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/TAINTED_HEART_FLAKES.png?v=1704748916",
+    active: true,
+    colors: ["Iridescent", "Pink", "Green","Flakes"],
+  },
+  {
+    name: "Tainted Heart Micro",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/TAINTED_HEART_MICRO.png?v=1704748915",
+    active: true,
+    colors: ["Iridescent", "Pink", "Green", "Micro"],
+  },
+  {
     name: "Tastes Like Pink",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/tasteslikepink_swatch.jpg?v=1688615932",
     active: true,
     colors: ["Pink", "Gold"],
+  },
+  {
+    name: "Tastes Like Pink Micro",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/TASTES_LIKE_PINIK_MICRO.png?v=1704749818",
+    active: true,
+    colors: ["Pink", "Gold","Micro"],
   },
   {
     name: "Techno Scope",
@@ -849,6 +896,66 @@ export const palettes: Palette[] = [
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/y2j_swatch.jpg?v=1688615932",
     active: true,
     colors: ["Yellow", "Gold"],
+  },
+  {
+    name: "Bats What She Said",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/BATS_WHNAT_SHE_SAID.png?v=1704748915",
+    active: true,
+    colors: ["Pink", "Orange","Blacklight","Halloween"],
+  },
+  {
+    name: "Bet On Me",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/BE_ON_ME.png?v=1704748915",
+    active: true,
+    colors: ["Red", "Black"],
+  },
+  {
+    name: "Flashback",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/FLASHBACK.png?v=1704748915",
+    active: true,
+    colors: ["Pink", "Orange","Yellow","Reflective"],
+  },
+  {
+    name: "Marshmallow Dreamz",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/MARSHMELLOW_DREAMZ.png?v=1704748915",
+    active: true,
+    colors: ["White", "Pink","Orange","Yellow","Iridescent"],
+  },
+  {
+    name: "Mermaid Mist",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/MERMIAD_MIST.png?v=1704748915",
+    active: true,
+    colors: ["Green","Blue","Iridescent"],
+  },
+  {
+    name: "Death Valley",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/DEATH_VALLEY.png?v=1704748916",
+    active: true,
+    colors: ["Purple","Orange"],
+  },
+  {
+    name: "Mercury",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/MERCUARY.png?v=1704748916",
+    active: true,
+    colors: ["Blue","Purple","Silver","Reflective"],
+  },
+  {
+    name: "Tis The Damn Tree Farm",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/TIS_THE_DAMN_TREE_FARM.png?v=1704748915",
+    active: true,
+    colors: ["Green","Gold","Brown"],
+  },
+  {
+    name: "Shabbat Night Sparkle",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/SHABBAT_NIGHT_SPARKLE.png?v=1704749817",
+    active: true,
+    colors: ["Black","Silver","Iridescent","Jewish"],
+  },
+  {
+    name: "Olive Juice",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/OLIVE_JUIICE.png?v=1704748915",
+    active: true,
+    colors: ["Green","Pink","Iridescent"],
   },
 ];
 
