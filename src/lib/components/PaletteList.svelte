@@ -336,7 +336,7 @@
       width: 99vw;
       max-width: 99vw;
       overflow-x: auto;
-      padding: 16px 0;
+      padding: 40px 0;
     }
 
     .buttons {

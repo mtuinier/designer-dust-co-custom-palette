@@ -40,7 +40,6 @@
         selectedSegment={miniSelectedSegment}
         {price}
         {productHandle}
-        {productId}
         {variant}
       />
     {/if}
@@ -56,7 +55,6 @@
         selectedSegment={standardSelectedSegment}
         {price}
         {productHandle}
-        {productId}
         {variant}
       />
     {/if}
@@ -72,7 +70,6 @@
         selectedSegment={vaultSelectedSegment}
         {price}
         {productHandle}
-        {productId}
         {variant}
       />
     {/if}
@@ -90,6 +87,7 @@
     align-items: flex-start;
     justify-content: flex-end;
     gap: 80px;
+    padding: 24px;
   }
 
   @media screen and (max-width: 1400px) {
