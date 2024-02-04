@@ -100,6 +100,7 @@
     .widget {
       flex-direction: column;
       align-items: center;
+      gap: 120px;
     }
   }
 </style>
