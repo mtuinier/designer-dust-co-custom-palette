@@ -106,7 +106,7 @@
       const segments = [...clone.getElementsByClassName("label-segment")];
       segments.forEach((s, i) => {
         if (s instanceof HTMLElement) {
-          s.style.fontSize = kind === "mini" ? "22px" : "18px";
+          s.style.fontSize = kind === "mini" ? "24px" : "20px";
           const currentLabels =
             kind === "mini"
               ? $miniPaletteLabelView
@@ -116,7 +116,7 @@
           const words = currentLabels[i]?.name?.split(" ") || "";
           for (let word of words) {
             if (word.length > 8)
-              s.style.fontSize = kind === "mini" ? "18px" : "14px";
+              s.style.fontSize = kind === "mini" ? "20px" : "16px";
           }
         }
       });
