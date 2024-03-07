@@ -333,7 +333,7 @@ export const palettes: Palette[] = [
   {
     name: "Erase Her Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/eraseher_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Pink", "Flakes"],
   },
   {
@@ -600,6 +600,12 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Silver", "Micro"],
   },
+   {
+    name: "Mirror Mirror Flakes",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/Full_MoonFlakes.jpg?v=1709848249",
+    active: true,
+    colors: ["Silver", "Flakes"],
+  },
   {
     name: "Moon Child",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/moonchild_swatch.jpg?v=1688615931",
@@ -659,7 +665,7 @@ export const palettes: Palette[] = [
   {
     name: "Pumpkin Spice Vibes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/pumpkinspice_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Red", "Orange", "Yellow", "Gold"],
   },
   {
@@ -819,6 +825,12 @@ export const palettes: Palette[] = [
     colors: ["Pink", "Gold","Micro"],
   },
   {
+    name: "Tastes Like Pink Flake",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/tasteslikepinkflakes.jpg?v=1709848249",
+    active: true,
+    colors: ["Pink", "Gold","Flakes"],
+  },
+  {
     name: "Techno Scope",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/technoscope_swatch.jpg?v=1688615932",
     active: true,
@@ -893,7 +905,7 @@ export const palettes: Palette[] = [
   },
   {
     name: "Yellow Brick Hoe",
-    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/y2j_swatch.jpg?v=1688615932",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/yellowbrickhoe_swatch.jpg?v=1688615932",
     active: true,
     colors: ["Yellow", "Gold"],
   },
@@ -956,6 +968,18 @@ export const palettes: Palette[] = [
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/OLIVE_JUIICE.png?v=1704748915",
     active: true,
     colors: ["Green","Pink","Iridescent"],
+  },
+   {
+    name: "Poet Society Sparkle",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/poetsocietysparkle.jpg?v=1709848249",
+    active: true,
+    colors: ["Gold","White","Iridescent"],
+  },
+  {
+    name: "Home Field Advantage",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/Home_feild_advantage.jpg?v=1709848250",
+    active: true,
+    colors: ["Gold","Red","Yellow"],
   },
 ];
 
