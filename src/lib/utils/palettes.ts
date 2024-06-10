@@ -825,7 +825,7 @@ export const palettes: Palette[] = [
     colors: ["Pink", "Gold","Micro"],
   },
   {
-    name: "Tastes Like Pink Flake",
+    name: "Tastes Like Pink Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/tasteslikepinkflakes.jpg?v=1709848249",
     active: true,
     colors: ["Pink", "Gold","Flakes"],
