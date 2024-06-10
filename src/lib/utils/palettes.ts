@@ -15,7 +15,7 @@ export const palettes: Palette[] = [
   {
     name: "Aurora Horealis",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/aurorahorealious_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Green", "Rainbow"],
   },
   {
@@ -111,7 +111,7 @@ export const palettes: Palette[] = [
   {
     name: "Bye Bye Binary",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/byebyebinary_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Purple", "Green"],
   },
   {
@@ -677,7 +677,7 @@ export const palettes: Palette[] = [
   {
     name: "Reef Her Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/reefherflakes_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Pink", "Flakes"],
   },
   {
@@ -858,7 +858,7 @@ export const palettes: Palette[] = [
   {
     name: "Vineyard Ice",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/vineyardice_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Purple", "Iridescent"],
   },
   {
@@ -918,7 +918,7 @@ export const palettes: Palette[] = [
   {
     name: "Bet On Me",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/BE_ON_ME.png?v=1704748915",
-    active: true,
+    active: false,
     colors: ["Red", "Black"],
   },
   {
@@ -981,6 +981,29 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Gold","Red","Yellow"],
   },
+  {
+    name: "Swamp Bae",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/Untitled_design_-_Swamp_bae_swatch.png?v=1717945693",
+    active: true,
+    colors: ["Green"],
+  },
+    {
+    name: "Guava Bae",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/Untitled_design_-_Guava_bae_swatch.png?v=1717945693",
+    active: true,
+    colors: ["Orange","Blacklight","Yellow"],
+  },
+    {
+    name: "Electric Slipper",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/Untitled_design_-_Electric_slipper_swatch.png?v=1717945693",
+    active: true,
+    colors: ["Blue","Iridescent"],
+  },
+   {
+    name: "C U Next Tues Bae",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/Untitled_design_-_C_u_next_Tues_bae_swatch.png?v=1717945694",
+    active: true,
+    colors: ["Pink ","Red"],
 ];
 
 export const activePalettes = palettes
