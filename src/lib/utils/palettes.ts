@@ -1004,6 +1004,7 @@ export const palettes: Palette[] = [
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/Untitled_design_-_C_u_next_Tues_bae_swatch.png?v=1717945694",
     active: true,
     colors: ["Pink ","Red"],
+     }
 ];
 
 export const activePalettes = palettes
