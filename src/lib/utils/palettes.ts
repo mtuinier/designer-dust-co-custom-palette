@@ -997,13 +997,37 @@ export const palettes: Palette[] = [
     name: "Electric Slipper",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/Untitled_design_-_Electric_slipper_swatch.png?v=1717945693",
     active: true,
-    colors: ["Blue","Iridescent"],
+    colors: ["Blue", "Iridescent"],
   },
    {
     name: "C U Next Tues Bae",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/Untitled_design_-_C_u_next_Tues_bae_swatch.png?v=1717945694",
     active: true,
-    colors: ["Pink ","Red"],
+    colors: ["Pink", "Red"],
+     }
+     {
+    name: "Karma",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/karma_swatch.png?v=1719583837",
+    active: true,
+    colors: ["Orange", "Blacklight"],
+     }
+   {
+    name: "Cold Plunge",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/cold_plunge_swatch.png?v=1719583837",
+    active: true,
+    colors: ["Blue", "Silver", "Iridescent"],
+     }
+  {
+    name: "Golden Rosé",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/golden_houe_swatch.png?v=1719583838",
+    active: true,
+    colors: ["Red","Gold","Iridescent"],
+     }
+  {
+    name: "Mama Sparkles Flakes ",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/mama_sparkels_flakes_swatch.png?v=1719583838",
+    active: true,
+    colors: ["Blue","Purple","Iridescent","Flakes"],
      }
 ];
 
