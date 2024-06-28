@@ -1010,7 +1010,7 @@ export const palettes: Palette[] = [
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/karma_swatch.png?v=1719583837",
     active: true,
     colors: ["Orange", "Blacklight"],
-     }
+     },
    {
     name: "Cold Plunge",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/cold_plunge_swatch.png?v=1719583837",
