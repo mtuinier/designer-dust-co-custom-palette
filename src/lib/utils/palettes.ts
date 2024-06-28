@@ -1027,7 +1027,7 @@ export const palettes: Palette[] = [
     name: "Mama Sparkles Flakes ",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/mama_sparkels_flakes_swatch.png?v=1719583838",
     active: true,
-    colors: ["Blue","Purple","Iridescent","Flakes"],
+    colors: ["Blue","Purple","Flakes"],
      }
 ];
 
