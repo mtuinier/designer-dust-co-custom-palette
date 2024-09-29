@@ -1055,7 +1055,7 @@ export const palettes: Palette[] = [
      },
   {
     name: "Chai Maintenance",
-    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/IMG_8014.jpg?v=1727647482",
+    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/chai.webp?v=1727647482",
     active: true,
     colors: ["Green","Gold","Jewish"],
      },
