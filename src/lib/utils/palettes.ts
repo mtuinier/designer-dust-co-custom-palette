@@ -1028,37 +1028,37 @@ export const palettes: Palette[] = [
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/mama_sparkels_flakes_swatch.png?v=1719583838",
     active: true,
     colors: ["Blue","Purple","Flakes"],
-     }
+     },
     {
     name: "Lick The Spoon Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/IMG_8021.jpg?v=1727647541",
     active: true,
     colors: ["Rainbow","Silver","Micro"],
-     }
+     },
   {
     name: "Hits Different",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/IMG_8014.jpg?v=1727647482",
     active: true,
     colors: ["Blue","Orange","Blacklight"],
-     }
+     },
   {
     name: "Sparkle N Sweet!",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/SHort.webp?v=1727647482",
     active: true,
     colors: ["Blue","Pink","Blacklight"],
-     }
+     },
   {
     name: "Tchotchke Sparkle",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/thotchke.webp?v=1727647482",
     active: true,
     colors: ["Gold","Jewish"],
-     }
+     },
   {
     name: "Chai Maintenance",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/IMG_8014.jpg?v=1727647482",
     active: true,
     colors: ["Green","Gold","Jewish"],
-     }
+     },
   {
     name: "Bubbie Kisses",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/bubbie.webp?v=1727647482",
