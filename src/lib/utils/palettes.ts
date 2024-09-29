@@ -1051,19 +1051,19 @@ export const palettes: Palette[] = [
     name: "Tchotchke Sparkle",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/thotchke.webp?v=1727647482",
     active: true,
-    colors: ["Gold","Haunkkah"],
+    colors: ["Gold","Jewish"],
      }
   {
     name: "Chai Maintenance",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/IMG_8014.jpg?v=1727647482",
     active: true,
-    colors: ["Green","Gold","Hanukkah"],
+    colors: ["Green","Gold","Jewish"],
      }
   {
     name: "Bubbie Kisses",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/bubbie.webp?v=1727647482",
     active: true,
-    colors: ["Red","Orange","Hanukkah"],
+    colors: ["Red","Orange","Jewish"],
      }
   
 ];
