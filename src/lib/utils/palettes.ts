@@ -39,7 +39,7 @@ export const palettes: Palette[] = [
   {
     name: "Bar Fly Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/barflyflakes_square.jpg?v=1688659630",
-    active: true,
+    active: false,
     colors: ["Iridescent", "Pink", "Green", "Flakes"],
   },
   {
@@ -63,7 +63,7 @@ export const palettes: Palette[] = [
   {
     name: "Bling Bling Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/blingblingflakes_swatch.jpg?v=1688615931",
-    active: true,
+    active: false,
     colors: ["Gold", "Flakes"],
   },
   {
@@ -99,7 +99,7 @@ export const palettes: Palette[] = [
   {
     name: "Bubblegum Bae Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/bubblegumflake_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Pink", "Blacklight", "Flakes"],
   },
   {
@@ -123,7 +123,7 @@ export const palettes: Palette[] = [
   {
     name: "C U Later Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/culaterflakes_swatch.jpg?v=1688617034",
-    active: true,
+    active: false,
     colors: ["Orange", "Copper", "Flakes"],
   },
   {
@@ -141,7 +141,7 @@ export const palettes: Palette[] = [
   {
     name: "Call You Mine",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/callyoumine_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Pink", "Blacklight"],
   },
   {
@@ -171,7 +171,7 @@ export const palettes: Palette[] = [
   {
     name: "Champagne Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/champagneflakes_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Gold", "Flakes"],
   },
   {
@@ -189,7 +189,7 @@ export const palettes: Palette[] = [
   {
     name: "Citrus Ice",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/citrusice_swatch.jpg?v=1688615931",
-    active: true,
+    active: false,
     colors: ["Yellow", "Blacklight"],
   },
   {
@@ -229,13 +229,13 @@ export const palettes: Palette[] = [
     colors: ["Iridescent", "Blue", "Orange", "Micro"],
   },
   {
-    name: "Disco Pants",
+    name: "Disco Pants Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/discopants_swatch.jpg?v=1688615931",
-    active: true,
+    active: false,
     colors: ["Pink", "Purple", "Gold"],
   },
   {
-    name: "Disco Pants Micro",
+    name: "Disco Pants ",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/discopantsmicro_swatch.jpg?v=1688615932",
     active: true,
     colors: ["Pink", "Purple", "Gold", "Micro"],
@@ -261,7 +261,7 @@ export const palettes: Palette[] = [
   {
     name: "Dorothy's Red Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/dorothysredflakes_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Red", "Flakes"],
   },
   {
@@ -271,7 +271,7 @@ export const palettes: Palette[] = [
     colors: ["Brown"],
   },
    {
-    name: "Due Tee Micro",
+    name: "Chip This Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/DUE_TEE_MICRO.png?v=1704749818",
     active: true,
     colors: ["Brown","Micro"],
@@ -279,7 +279,7 @@ export const palettes: Palette[] = [
   {
     name: "Electric Clementine Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/electricclementineflakes_swatch.jpg?v=1688615931",
-    active: true,
+    active: false,
     colors: ["Orange", "Blacklight", "Flakes"],
   },
   {
@@ -297,7 +297,7 @@ export const palettes: Palette[] = [
   {
     name: "Electric Slipper Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/electricslipperflakes_swatch.jpg?v=1688615931",
-    active: true,
+    active: false,
     colors: ["Blue", "Iridescent", "Flakes"],
   },
   {
@@ -309,7 +309,7 @@ export const palettes: Palette[] = [
   {
     name: "Emerald City Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/emeraldcityflake_square.jpg?v=1688659671",
-    active: true,
+    active: false,
     colors: ["Green", "Flakes"],
   },
   {
@@ -327,7 +327,7 @@ export const palettes: Palette[] = [
   {
     name: "Enchantress Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/enchantressmicro_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Red", "Pink", "Micro"],
   },
   {
@@ -363,7 +363,7 @@ export const palettes: Palette[] = [
   {
     name: "Frickin' Bats",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/frickinbats_square.jpg?v=1688659652",
-    active: true,
+    active: false,
     colors: ["Black", "Halloween"],
   },
   {
@@ -393,7 +393,7 @@ export const palettes: Palette[] = [
   {
     name: "Glazed and Confused",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/glazedandconfused_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Green", "Purple", "420"],
   },
   {
@@ -501,13 +501,13 @@ export const palettes: Palette[] = [
   {
     name: "Lights Out Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/lightsoutmicro_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Black", "Gold", "Micro"],
   },
   {
     name: "Lilac Dreams",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/lilacdreams_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Purple"],
   },
   {
@@ -531,7 +531,7 @@ export const palettes: Palette[] = [
   {
     name: "Lunar Magick Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/lunarmagickflake_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Blue", "Flakes"],
   },
   {
@@ -561,7 +561,7 @@ export const palettes: Palette[] = [
   {
     name: "Matcha Mint Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/matchamintflakes_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Green", "Iridescent", "Blacklight", "Flakes"],
   },
   {
@@ -573,7 +573,7 @@ export const palettes: Palette[] = [
   {
     name: "Mellow Yellow",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/mellowyellow_swatch.jpg?v=1688615933",
-    active: true,
+    active: false,
     colors: ["Yellow", "Rainbow", "Blacklight", "420"],
   },
   {
@@ -615,7 +615,7 @@ export const palettes: Palette[] = [
   {
     name: "Nebula",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/nebula_swatch.jpg?v=1688615931",
-    active: true,
+    active: false,
     colors: ["Blue", "Black", "Green", "Purple"],
   },
   {
@@ -644,7 +644,7 @@ export const palettes: Palette[] = [
     colors: ["Silver", "Blacklight"],
   },
   {
-    name: "Party Foul Flakes",
+    name: "Party Foul",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/partyfoulflakes_swatch.jpg?v=1688615932",
     active: true,
     colors: ["Rainbow", "Flakes"],
@@ -689,7 +689,7 @@ export const palettes: Palette[] = [
   {
     name: "Reign On Me Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/reginonmeflakes_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Purple", "Flakes"],
   },
   {
@@ -731,7 +731,7 @@ export const palettes: Palette[] = [
   {
     name: "Spellbound Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/spellboundflakes_swatch.jpg?v=1688615931",
-    active: true,
+    active: false,
     colors: ["Purple", "Blacklight", "Flakes"],
   },
   {
@@ -743,7 +743,7 @@ export const palettes: Palette[] = [
   {
     name: "Starbright Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/starbrightflakes_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Silver", "Flakes"],
   },
   {
@@ -755,13 +755,13 @@ export const palettes: Palette[] = [
   {
     name: "Stormy Vibes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/stormyvibes_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Black", "Purple"],
   },
   {
     name: "Stormy Vibes Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/stomryvibesflakes_swatch.jpg?v=1688615931",
-    active: true,
+    active: false,
     colors: ["Black", "Flakes"],
   },
   {
@@ -779,7 +779,7 @@ export const palettes: Palette[] = [
   {
     name: "Sunshine Ice Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/sunshineiceflakes_swatch.jpg?v=1688615931",
-    active: true,
+    active: false,
     colors: ["Yellow", "Blacklight", "Flakes"],
   },
   {
@@ -827,7 +827,7 @@ export const palettes: Palette[] = [
   {
     name: "Tastes Like Pink Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/tasteslikepinkflakes.jpg?v=1709848249",
-    active: true,
+    active: false,
     colors: ["Pink", "Gold","Flakes"],
   },
   {
@@ -850,7 +850,7 @@ export const palettes: Palette[] = [
     colors: ["Pink", "Iridescent"],
   },
   {
-    name: "Undercover Princess Flakes",
+    name: "Undercover Princess",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/undercoverprincessflakes_swatch.jpg?v=1688615933",
     active: true,
     colors: ["Purple", "Pink", "Silver", "Flakes"],
@@ -864,13 +864,13 @@ export const palettes: Palette[] = [
   {
     name: "Viva La Zebra!",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/vivalazebra_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Black", "White"],
   },
   {
     name: "Wanna Play?",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/wannaplay_swatch.jpg?v=1688615933",
-    active: true,
+    active: false,
     colors: ["Red", "Green", "Silver", "Halloween"],
   },
   {
@@ -880,7 +880,7 @@ export const palettes: Palette[] = [
     colors: ["Red", "Silver"],
   },
   {
-    name: "Water Country Flakes",
+    name: "Water Country",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/watercountryflakes_swatch.jpg?v=1688615932",
     active: true,
     colors: ["Blue", "Flakes"],
@@ -894,7 +894,7 @@ export const palettes: Palette[] = [
   {
     name: "Wedding Cake",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/weddincake_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Gold", "Pink", "Yellow", "Iridescent"],
   },
   {
@@ -912,7 +912,7 @@ export const palettes: Palette[] = [
   {
     name: "Bats What She Said",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/BATS_WHNAT_SHE_SAID.png?v=1704748915",
-    active: true,
+    active: false,
     colors: ["Pink", "Orange","Blacklight","Halloween"],
   },
   {
@@ -924,7 +924,7 @@ export const palettes: Palette[] = [
   {
     name: "Flashback",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/FLASHBACK.png?v=1704748915",
-    active: true,
+    active: false,
     colors: ["Pink", "Orange","Yellow","Reflective"],
   },
   {
@@ -942,13 +942,13 @@ export const palettes: Palette[] = [
   {
     name: "Death Valley",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/DEATH_VALLEY.png?v=1704748916",
-    active: true,
+    active: false,
     colors: ["Purple","Orange"],
   },
   {
     name: "Mercury",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/MERCUARY.png?v=1704748916",
-    active: true,
+    active: false,
     colors: ["Blue","Purple","Silver","Reflective"],
   },
   {
@@ -990,7 +990,7 @@ export const palettes: Palette[] = [
     {
     name: "Guava Bae",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/Untitled_design_-_Guava_bae_swatch.png?v=1717945693",
-    active: true,
+    active: false,
     colors: ["Orange","Blacklight","Yellow"],
   },
     {
@@ -1002,7 +1002,7 @@ export const palettes: Palette[] = [
    {
     name: "C U Next Tues Bae",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/Untitled_design_-_C_u_next_Tues_bae_swatch.png?v=1717945694",
-    active: true,
+    active: false,
     colors: ["Pink", "Red"],
      },
      {
@@ -1026,7 +1026,7 @@ export const palettes: Palette[] = [
   {
     name: "Mama Sparkles Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/mama_sparkels_flakes_swatch.png?v=1719583838",
-    active: true,
+    active: false,
     colors: ["Blue","Purple","Flakes"],
      },
     {
@@ -1044,7 +1044,7 @@ export const palettes: Palette[] = [
   {
     name: "Sparkle N Sweet!",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/SHort.webp?v=1727647482",
-    active: true,
+    active: false,
     colors: ["Blue","Pink","Blacklight"],
      },
   {
