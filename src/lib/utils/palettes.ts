@@ -39,7 +39,7 @@ export const palettes: Palette[] = [
   {
     name: "Bar Fly Flakes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/barflyflakes_square.jpg?v=1688659630",
-    active: false,
+    active: true,
     colors: ["Iridescent", "Pink", "Green", "Flakes"],
   },
   {
@@ -61,10 +61,10 @@ export const palettes: Palette[] = [
     colors: ["Gold"],
   },
   {
-    name: "Bling Bling Flakes",
-    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/blingblingflakes_swatch.jpg?v=1688615931",
-    active: false,
-    colors: ["Gold", "Flakes"],
+    name: "Face Frosting Flakes",
+    img: "https://designerdustco.com/cdn/shop/files/IMG-1432.png?v=1747420329",
+    active: true,
+    colors: ["Iridescent", "Rainbow", "Flakes"],
   },
   {
     name: "Bling Bling Micro",
@@ -97,10 +97,10 @@ export const palettes: Palette[] = [
     colors: ["Pink", "Blacklight"],
   },
   {
-    name: "Bubblegum Bae Flakes",
-    img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/bubblegumflake_swatch.jpg?v=1688615932",
-    active: false,
-    colors: ["Pink", "Blacklight", "Flakes"],
+    name: "Face Frsoting Micro",
+    img: "https://designerdustco.com/cdn/shop/files/IMG-1433.png?v=1747420345&width=1946",
+    active: true,
+    colors: ["Iridescent", "Rainbow", "Micro"],
   },
   {
     name: "Bubblegum Bae Micro",
