@@ -1064,7 +1064,13 @@ export const palettes: Palette[] = [
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/bubbie.webp?v=1727647482",
     active: true,
     colors: ["Red","Orange","Jewish"],
-     }
+     },
+   {
+    name: "Showgirl Sparkle",
+    img: "https://designerdustco.com/cdn/shop/files/3_0e584d5d-8df3-44cc-a43c-716803fb5b93.png",
+    active: true,
+    colors: ["Green", "Blacklight","Orange"],
+  },
   
 ];
 
