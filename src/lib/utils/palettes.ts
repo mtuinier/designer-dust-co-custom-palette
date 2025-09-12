@@ -870,7 +870,7 @@ export const palettes: Palette[] = [
   {
     name: "Wanna Play?",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/wannaplay_swatch.jpg?v=1688615933",
-    active: false,
+    active: true,
     colors: ["Red", "Green", "Silver", "Halloween"],
   },
   {
@@ -912,7 +912,7 @@ export const palettes: Palette[] = [
   {
     name: "Bats What She Said",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/BATS_WHNAT_SHE_SAID.png?v=1704748915",
-    active: false,
+    active: true,
     colors: ["Pink", "Orange","Blacklight","Halloween"],
   },
   {
@@ -1071,7 +1071,30 @@ export const palettes: Palette[] = [
     active: true,
     colors: ["Green", "Blacklight","Orange"],
   },
-  
+    {
+    name: "Shock Bae",
+    img: "https://designerdustco.com/cdn/shop/files/image_e14d4c66-8d5c-4509-83cc-8e8563f30cee.png",
+    active: true,
+    colors: ["Blue", "Silver","Blacklight","Halloween"],
+  },
+    {
+    name: "Haunt Me",
+    img: "https://designerdustco.com/cdn/shop/files/image_debfbcfc-4da0-48ec-bbdc-7c6ff0655e54.png",
+    active: true,
+    colors: ["Pink", "Gold","Blacklight","Halloween"],
+  },     
+  {
+    name: "Ghoul Street ",
+    img: "https://designerdustco.com/cdn/shop/files/image_d7dba09b-1455-4027-a7be-edcfc9fcf057.png",
+    active: true,
+    colors: ["Green", "Gold","Blacklight","Halloween"],
+  },
+    {
+    name: "Bone Daddy ",
+    img: "https://designerdustco.com/cdn/shop/files/Untitleddesign_1_3c32984d-b9a1-4876-9320-1008126171bb.png",
+    active: true,
+    colors: ["Silver", "Iridescent","Halloween"],
+  },
 ];
 
 export const activePalettes = palettes
