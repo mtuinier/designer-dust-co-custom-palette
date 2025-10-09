@@ -1099,7 +1099,7 @@ export const palettes: Palette[] = [
     name: "Fishy Fishy ",
     img: "https://designerdustco.com/cdn/shop/files/6.png?v=1749857627&width=1646",
     active: true,
-    colors: ["Blue", "Iridescent","Green"],
+    colors: ["Blue", "Iridescent","Green","Blacklilght"],
   },
 ];
 
