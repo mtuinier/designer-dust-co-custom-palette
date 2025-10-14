@@ -894,7 +894,7 @@ export const palettes: Palette[] = [
   {
     name: "Wedding Cake",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/weddincake_swatch.jpg?v=1688615932",
-    active: false,
+    active: true,
     colors: ["Gold", "Pink", "Yellow", "Iridescent"],
   },
   {
@@ -942,7 +942,7 @@ export const palettes: Palette[] = [
   {
     name: "Death Valley",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/DEATH_VALLEY.png?v=1704748916",
-    active: false,
+    active: true,
     colors: ["Purple","Orange"],
   },
   {
