@@ -51,7 +51,7 @@ export const palettes: Palette[] = [
   {
     name: "Bejeweled",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/bejeweled_swatch.jpg?v=1688615932",
-    active: true,
+    active: FALSE,
     colors: ["Rainbow", "Blue", "Purple"],
   },
   {
@@ -237,7 +237,7 @@ export const palettes: Palette[] = [
   {
     name: "Disco Pants ",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/discopantsmicro_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Pink", "Purple", "Gold", "Micro"],
   },
   {
@@ -417,7 +417,7 @@ export const palettes: Palette[] = [
   {
     name: "Green Goddess",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/greengoddess_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Green", "Rainbow"],
   },
   {
@@ -495,7 +495,7 @@ export const palettes: Palette[] = [
   {
     name: "Lights Out",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/lightsout_square.jpg?v=1688659682",
-    active: true,
+    active: false,
     colors: ["Black", "Gold"],
   },
   {
@@ -543,7 +543,7 @@ export const palettes: Palette[] = [
   {
     name: "Lunar Magick Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/LUNAR_MAGICK_MICRO.png?v=1704749818",
-    active: true,
+    active: false,
     colors: ["Blue", "Micro"],
   },
   {
@@ -659,7 +659,7 @@ export const palettes: Palette[] = [
   {
     name: "Pixie",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/pixie_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["White", "Pink", "Blacklight"],
   },
   {
@@ -701,7 +701,7 @@ export const palettes: Palette[] = [
   {
     name: "Roller Rink",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/rollerrink_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Pink", "Rainbow", "Blacklight"],
   },
   {
@@ -713,7 +713,7 @@ export const palettes: Palette[] = [
   {
     name: "Solstice Vibes",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/solsticvibes_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Gold", "Silver"],
   },
   {
@@ -815,13 +815,13 @@ export const palettes: Palette[] = [
   {
     name: "Tastes Like Pink",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/tasteslikepink_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Pink", "Gold"],
   },
   {
     name: "Tastes Like Pink Micro",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/TASTES_LIKE_PINIK_MICRO.png?v=1704749818",
-    active: true,
+    active: false,
     colors: ["Pink", "Gold","Micro"],
   },
   {
@@ -864,7 +864,7 @@ export const palettes: Palette[] = [
   {
     name: "Viva La Zebra!",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/vivalazebra_swatch.jpg?v=1688615932",
-    active: false,
+    active: true,
     colors: ["Black", "White"],
   },
   {
@@ -882,7 +882,7 @@ export const palettes: Palette[] = [
   {
     name: "Water Country",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/watercountryflakes_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Blue", "Flakes"],
   },
   {
@@ -894,7 +894,7 @@ export const palettes: Palette[] = [
   {
     name: "Wedding Cake",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/weddincake_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Gold", "Pink", "Yellow", "Iridescent"],
   },
   {
@@ -906,7 +906,7 @@ export const palettes: Palette[] = [
   {
     name: "Yellow Brick Hoe",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/yellowbrickhoe_swatch.jpg?v=1688615932",
-    active: true,
+    active: false,
     colors: ["Yellow", "Gold"],
   },
   {
@@ -942,7 +942,7 @@ export const palettes: Palette[] = [
   {
     name: "Death Valley",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/DEATH_VALLEY.png?v=1704748916",
-    active: true,
+    active: false,
     colors: ["Purple","Orange"],
   },
   {
@@ -984,7 +984,7 @@ export const palettes: Palette[] = [
   {
     name: "Swamp Bae",
     img: "https://cdn.shopify.com/s/files/1/0537/6157/3040/files/Untitled_design_-_Swamp_bae_swatch.png?v=1717945693",
-    active: true,
+    active: false,
     colors: ["Green"],
   },
     {
@@ -1074,31 +1074,31 @@ export const palettes: Palette[] = [
     {
     name: "Shock Bae",
     img: "https://designerdustco.com/cdn/shop/files/image_e14d4c66-8d5c-4509-83cc-8e8563f30cee.png",
-    active: true,
+    active: false,
     colors: ["Blue", "Silver","Blacklight","Halloween"],
   },
     {
     name: "Haunt Me",
     img: "https://designerdustco.com/cdn/shop/files/image_debfbcfc-4da0-48ec-bbdc-7c6ff0655e54.png",
-    active: true,
+    active: false,
     colors: ["Pink", "Gold","Blacklight","Halloween"],
   },     
   {
     name: "Ghoul Street ",
     img: "https://designerdustco.com/cdn/shop/files/image_d7dba09b-1455-4027-a7be-edcfc9fcf057.png",
-    active: true,
+    active: false,
     colors: ["Green", "Gold","Blacklight","Halloween"],
   },
     {
     name: "Bone Daddy ",
     img: "https://designerdustco.com/cdn/shop/files/Untitleddesign_1_3c32984d-b9a1-4876-9320-1008126171bb.png",
-    active: true,
+    active: false,
     colors: ["Silver", "Iridescent","Halloween"],
   },
   {
     name: "Fishy Fishy ",
     img: "https://designerdustco.com/cdn/shop/files/6.png?v=1749857627&width=1646",
-    active: true,
+    active: false,
     colors: ["Blue", "Iridescent","Green","Blacklilght"],
   },
 ];
