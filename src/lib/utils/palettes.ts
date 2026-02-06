@@ -1096,10 +1096,16 @@ export const palettes: Palette[] = [
     colors: ["Silver", "Iridescent","Halloween"],
   },
   {
-    name: "Fishy Fishy ",
-    img: "https://designerdustco.com/cdn/shop/files/6.png?v=1749857627&width=1646",
-    active: false,
-    colors: ["Blue", "Iridescent","Green","Blacklilght"],
+    name: "Hyper Blue Bae",
+    img: "https://designerdustco.com/cdn/shop/files/5_521122fb-089e-4310-9be3-f7c5e96adf51.png",
+    active: true,
+    colors: ["Blue"],
+  },
+  {
+    name: "Fluro Vibes ",
+    img: "https://designerdustco.com/cdn/shop/files/6_ece82f5b-29c4-4151-b904-ececaa07f525.png",
+    active: true,
+    colors: ["Green", "Blacklight", "Yellow"],
   },
 ];
 
