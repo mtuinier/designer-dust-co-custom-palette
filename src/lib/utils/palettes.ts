@@ -1106,7 +1106,7 @@ export const palettes: Palette[] = [
     img: "https://designerdustco.com/cdn/shop/files/6_ece82f5b-29c4-4151-b904-ececaa07f525.png",
     active: true,
     colors: ["Green", "Blacklight", "Yellow"],
-  },
+  }
 ];
 
 export const activePalettes = palettes
